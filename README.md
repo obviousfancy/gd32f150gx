@@ -1,49 +1,45 @@
-# [Nombre del Proyecto]
+# gd32f150gx
 
-![Badge](https://img.shields.io/badge/Status-Completed-success)
+![Badge](https://img.shields.io/badge/Status-InProgress-success)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
-## 📝 Descripción
-[Escribe aquí una descripción breve pero técnica. Ejemplo: "Sistema embebido basado en STM32 para el procesamiento de señales digitales acústicas utilizando algoritmos de filtrado FIR."]
+## Overview
 
-## 🚀 Características Principales
-- **Procesamiento en tiempo real:** [Ej: Implementación de FFT].
-- **Diseño de Hardware:** PCB de 2 capas optimizada para bajo ruido.
-- **Interfaz:** Visualización de datos en pantalla OLED mediante protocolo I2C.
+The project, named "gd32f150gx," is a development effort focused on creating a microcontroller-based system using the GD32F150Gx series microcontrollers with a QFN28 package. The primary objectives include real-time processing capabilities and hardware design optimization for low noise.
 
-## 🛠️ Tecnologías Utilizadas
-- **Lenguajes:** C / C++ / VHDL.
-- **Hardware:** STM32H7, ESP32, Sensores [Modelo].
-- **Software/Herramientas:** KiCad, STM32CubeIDE, MATLAB.
+## Project Description
 
-## 📁 Estructura del Repositorio
-- `/src`: Firmware desarrollado en C.
-- `/hardware`: Esquema electrónico y diseño de PCB.
-- `/assets`: Capturas de pantalla y diagramas de bloques.
-- `/docs`: Documentacion relacionada respecto al proyecto general.
+- **Description**: A test board based on GD32F150Gx microcontroller with QFN28 packaging.
+- **Features**:
+  - 2-layer PCB design.
+  - SWD via QWIIC Connector
 
-## 📸 Galería
-| Prototipo Físico | Diseño PCB |
-| :---: | :---: |
-| ![Prototipo](./assets/foto_prototipo.jpg) | ![PCB](./assets/foto_pcb.png) |
+## Technologies and Tools
 
-## ⚙️ Instalación y Uso
-1. Clonar el repositorio: `git clone [url-del-repo]`
-2. Abrir el proyecto en [Nombre del IDE].
-3. Compilar y cargar al microcontrolador.
+- **Hardware**: GD32, QWIIC Connector
+- **Software/Hardware Design Tools**: KiCad
 
----
-## 🛠️ Guía de Trabajo Rápida
+## Repository Structure
 
-| Tipo de Commit | Descripción |
-| :--- | :--- |
-| **feat** | Nuevas funciones/archivos |
-| **hw** | Cambios en PCB o esquemáticos |
-| **docs** | Documentación y reportes |
-| **fix** | Corrección de errores |
+- `/src`: Firmware developed in C (not present in the provided structure).
+- `/hardware`: Schematic and PCB design files.
+  - `00_gd32f150/`: Subdirectory for specific hardware design versions.
+    - KiCad project files (`.kicad_sch`, `.kicad_pcb`, etc.): Schematic and PCB layout files.
+- `/assets`: Images and block diagrams.
+  - `00_gd32f150.pdf`, `00_gd32f150.svg`, `gd32f150.png`
+- `/docs`: General project documentation.(not present in the provided structure)
 
-> [!TIP]
-> Consulta la [Guía de Estilo completa aquí](./GUIA_ESTILO.md) antes de realizar cambios.
+## Gallery
 
----
-Desarrollado como parte de la formación en [Tu Carrera/Universidad].
+### Prototypes
+- **Physical Prototype**: ![SVG](./assets/00_gd32f150.svg)
+- **PCB Design**: ![PNG](./assets/gd32f150.png)
+
+## Installation and Usage
+
+1. Clone the repository: `git clone [url-del-repo]`
+2. Open the project in KiCad.
+
+## License
+
+The project is licensed under the MIT License. For more details, refer to the `LICENSE` file.
