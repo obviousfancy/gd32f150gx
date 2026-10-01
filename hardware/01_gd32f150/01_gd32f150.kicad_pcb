@@ -91,7 +91,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -181,7 +180,6 @@
 			)
 		)
 		(property ki_fp_filters "*QFN28_4X4X0.8*")
-		(path "/f85019fc-bcbe-4e22-bdf5-467ab4b61fd5")
 		(sheetname "/")
 		(sheetfile "00_gd32f150.kicad_sch")
 		(units
@@ -575,7 +573,7 @@
 		(property "Reference" "J3"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "00ebd558-dd56-4253-8c8a-06b430ddde8c")
+			(uuid "fa36dbe2-754b-4de0-938e-7dbe31b31352")
 			(effects
 				(font
 					(size 1 1)
@@ -586,7 +584,7 @@
 		(property "Value" "RightConn"
 			(at 0 37.94 0)
 			(layer "F.Fab")
-			(uuid "e93d963c-1cba-41ae-996b-7e4cdd91ea18")
+			(uuid "3a80dab5-8aca-448d-af93-8cd8ec310170")
 			(effects
 				(font
 					(size 1 1)
@@ -598,7 +596,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d14d467b-90af-4630-a9e6-524bea2e3830")
+			(uuid "9314d6a1-678e-4cbc-a183-187338802fd6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -609,7 +607,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "28479380-bb4f-49a7-867e-6ca730e53b32")
+			(uuid "14e62b5e-49f6-4121-92ef-c585b32786b8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -631,11 +629,11 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/2db0d6f1-c609-4c31-9de0-5f5806b1dff4")
 		(sheetname "/")
-		(sheetfile "00_gd32f150.kicad_sch")
+		(sheetfile "01_gd32f150.kicad_sch")
 		(units
 			(unit
 				(name "A")
-				(pins "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15")
+				(pins "1" "2" "3")
 			)
 		)
 		(attr through_hole)
@@ -958,7 +956,7 @@
 		(property "Reference" "J4"
 			(at 0 1.8 0)
 			(layer "F.Fab")
-			(uuid "64a4cde7-10e7-4add-a886-9613ac74b625")
+			(uuid "4c68c94e-9c4c-4221-94e0-ed210739f231")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -970,7 +968,7 @@
 		(property "Value" "Qwiic_RA"
 			(at 0 2.6 0)
 			(layer "F.Fab")
-			(uuid "de348f91-0fde-4058-96d4-75694a957860")
+			(uuid "bc8c54d0-69f0-4aff-b664-001bf554e905")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -984,7 +982,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7361ba49-8697-47b5-bf7a-00bf671d1b07")
+			(uuid "045405c6-3182-4610-ae4f-bb920e3ff8bf")
 			(effects
 				(font
 					(size 0.5 0.5)
@@ -997,7 +995,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8958ec66-c858-45f6-9f44-61fad63d3f22")
+			(uuid "33ba3c6b-7e60-4d39-990e-8cc7fa167a27")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1021,7 +1019,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/02361142-2fe6-4aa0-8889-0fcd83eef6a8")
 		(sheetname "/")
-		(sheetfile "00_gd32f150.kicad_sch")
+		(sheetfile "01_gd32f150.kicad_sch")
 		(units
 			(unit
 				(name "A")
@@ -1187,7 +1185,7 @@
 		(property "Reference" "J2"
 			(at 0 -2.38 0)
 			(layer "F.SilkS")
-			(uuid "6256cc3b-421d-4619-85b9-499875bafa75")
+			(uuid "4281e324-1afb-4da4-9056-f9f999062650")
 			(effects
 				(font
 					(size 1 1)
@@ -1198,7 +1196,7 @@
 		(property "Value" "LeftConn"
 			(at 2.5 1.24 270)
 			(layer "F.Fab")
-			(uuid "3dd0c834-096f-493f-9917-2f88e4dd6ce5")
+			(uuid "ac787d75-eb4c-410e-aa10-9bae57f6aac1")
 			(effects
 				(font
 					(size 1 1)
@@ -1210,7 +1208,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c034921a-7d8d-4651-9eb4-85281c8aef56")
+			(uuid "21ef3fbd-bbeb-4c3f-a9fd-6e6ea772920e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,7 +1219,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84313e95-f261-4574-a8e4-74bb2123dc09")
+			(uuid "efe6530a-ea7f-4c82-96ce-fb7a4e938337")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1243,7 +1241,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/d5608ad4-3c84-4be3-9ec8-f9adb5c1e9dc")
 		(sheetname "/")
-		(sheetfile "00_gd32f150.kicad_sch")
+		(sheetfile "01_gd32f150.kicad_sch")
 		(units
 			(unit
 				(name "A")

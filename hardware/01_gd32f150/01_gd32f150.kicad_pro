@@ -503,7 +503,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "00_gd32f150.kicad_pro",
+    "filename": "01_gd32f150.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -671,18 +671,22 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "00_gd32f150.kicad_sch",
-        "name": "00_gd32f150",
+        "filename": "01_gd32f150.kicad_sch",
+        "name": "01_gd32f150",
         "uuid": "311356fc-4c90-4c4a-9d38-ba2806788e09"
       }
     ],
-    "used_designators": "#PWR1-8,J1-4,U1-2",
+    "used_designators": "SW1,R1-7,L1,D1-2,C1-12,20pF1-2,U1-3,J1-6,Y1-2,#PWR1-31",
     "variants": []
   },
   "sheets": [
     [
       "311356fc-4c90-4c4a-9d38-ba2806788e09",
-      "00_gd32f150"
+      "01_gd32f150"
+    ],
+    [
+      "a97b7135-c5e1-4725-8109-2ddb74f6d4c6",
+      "MCUPeripherals"
     ]
   ],
   "text_variables": {},
